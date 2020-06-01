@@ -1,7 +1,7 @@
 username = input("Enter The Username: ")
 password = str (input("Enter The Password: "))
-count = 3  #for just 3 trys
-while username != "admin" and password != "123":
+count = 3  #num of trys
+while username != "admin" or password != "123":
     count -=1 
     if count == 0:
         print ("\n you try many time wrong try again later .\n")
