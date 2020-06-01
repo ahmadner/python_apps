@@ -1,3 +1,9 @@
+#username = admin
+#password = 123
+#|===================|
+#| coder : ahmadNer  |
+#|===================|
+
 print ("\n")
 username = input("Enter The Username: ")
 password = str (input("Enter The Password: "))
@@ -15,9 +21,9 @@ while username != "admin" or password != "123":
 while username == "admin" and password == "123":
         
     print ("\n welcome to your program \n")
+    print (""" 
+            |===================|
+            | coder : ahmadNer  |
+            |===================|
+            """)
     exit()
-#username = admin
-#password = 123
-#|===================|
-#| coder : ahmadNer  |
-#|===================|
