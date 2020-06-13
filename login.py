@@ -12,7 +12,7 @@ while username != "admin" or password != "123":
     count -=1 
     if count == 0:
         print ("\n you try many time wrong try again later .\n")
-        exit()
+        break
     else:    
         print("\nwrong password or username , try again \n")
         print("you have a " +str (count)+ " of trys \n")
@@ -26,4 +26,4 @@ while username == "admin" and password == "123":
             | coder : ahmadNer  |
             |===================|
             """)
-    exit()
+    break
