@@ -22,7 +22,7 @@ def my_res_div ():
     return x
 #============================
 
-def photo():# def in top * 
+def photo():
     print ("""
     |=======================|
     |  CODER: AhmadNueirat  |
@@ -40,13 +40,6 @@ def photo():# def in top *
     |   [ ]  [0]  [ ]  [ ]  |
     |=======================|
     """)
-
-#               {res} {opr} {n2} 
-#         ===>  {y}
-
-
-#       {n1} {opr} {n2}  
-#===>  {res}
 
 def _math(opr,y):# not first time
     print (f"""
@@ -85,8 +78,6 @@ def _math_f(opr):# first time
     |   [ ]  [0]  [ ]  [ ]  |
     |=======================|
     """)
-     
-
 n1 = 0 
 n2 = 0
 res = 0
